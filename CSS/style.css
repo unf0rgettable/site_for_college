@@ -69,3 +69,19 @@ footer{
 	width: 100%;
 /*	min-width: 900px;*/
 }
+
+
+/* Настройки SVG */
+.imgsvg {
+	width: 980px;
+	margin-top: 100px;
+	margin: 0 auto;
+}
+.imgsvg a{
+	position: center;
+	display:inline-block ;
+	width: 30px;
+}
+path{
+	fill:white; stroke:white;
+}
