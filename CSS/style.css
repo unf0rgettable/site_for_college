@@ -17,13 +17,16 @@ header{
 content{
 	display: block;
 	border: 1px solid black;
-	background:  #24292e;
+	background:  #2f363d;
 	margin: 0px auto;
 	padding: 0px;
 	width: 980px;
 	height: 100%;
 }
-
+#serega{
+	text-align: center;
+	padding: 10px;
+}
 footer{
 	background:  #24292e;
 }
