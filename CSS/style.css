@@ -16,11 +16,10 @@ header{
 
 content{
 	display: block;
-	border-style: solid;
-	border-color: red;
+	border: 1px solid black;
 	background:  #24292e;
-	margin-left: auto;
-	margin-right: auto;
+	margin: 0px auto;
+	padding: 0px;
 	width: 980px;
 	height: 100%;
 }
@@ -33,13 +32,13 @@ footer{
 	border: 1px solid black;
 }
 .le1 {
-	border: 1px solid black;
+	border: 1px solid red;
     width: 60%; 
     text-align: left;
 	
 }
 .ri1 {
-	border: 1px solid black;
+	border: 1px solid red;
 	width: 40%;
 	text-align: right;
 }
@@ -61,15 +60,26 @@ footer{
 }
 .fixed-menu {
 	border: 1px solid black;
-	/* height: 40px; */
 	position: fixed;
 	float: center;
 	top:0;
-	/*left: -20px;*/
 	width: 100%;
-/*	min-width: 900px;*/
-}
 
+}
+.block{
+	padding: 0px;
+	margin: 0px auto;
+	width: 100%;
+	display: inline-block;
+}
+.element{
+	height: 50px;
+	padding: 0px;
+	margin: 0px auto;
+	float: left;
+	width: 49%;
+	border: 1px solid white;
+}
 
 /* Настройки SVG */
 .imgsvg {
@@ -78,7 +88,6 @@ footer{
 	margin: 0 auto;
 }
 .imgsvg a{
-	position: center;
 	display:inline-block ;
 	width: 30px;
 }
