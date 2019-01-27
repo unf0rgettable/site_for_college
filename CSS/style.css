@@ -4,7 +4,7 @@ body{
 	background: white;
 	margin: 0 ; 
 	padding: 0; 
-/*	height: 10000px;*/
+	height: 10000px;
 }
 header{
 	padding: 5px;
@@ -33,4 +33,22 @@ header{
     width: 100%;
     padding: 5px;
     margin: 0px auto;
+}
+#menu {
+    font-size: 1vw;
+    min-height: 40px;
+    z-index: 1001;
+    background: white;
+	margin: 0;
+	border: 1px solid black;
+}
+.fixed-menu {
+	border: 1px solid black;
+	/* height: 40px; */
+	position: fixed;
+	float: center;
+	top:0;
+	/*left: -20px;*/
+	width: 100%;
+/*	min-width: 900px;*/
 }
