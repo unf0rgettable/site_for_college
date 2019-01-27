@@ -1,4 +1,14 @@
 
+:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
+* { 
+	font-family: Century Gothic;
+	color: white;
+}
+
 body{
 	width: 100%;
 	margin: 0 ; 
@@ -18,7 +28,7 @@ header{
 
 content{
 	display: block;
-	background:  #24292e;
+	background:  #2f363d;
 	margin-left: auto;
 	margin-right: auto;
 	width: 980px;
@@ -28,6 +38,21 @@ content{
 	text-align: center;
 	padding: 10px;
 }
+.block{
+	padding: 0px;
+	margin: 0px auto;
+	width: 100%;
+	display: inline-block;
+}
+.element{
+	height: 50px;
+	padding: 0px;
+	margin: 0px auto;
+	float: left;
+	width: 49%;
+	border: 1px solid white;
+}
+
 footer{
 	background:  #24292e;
 }
@@ -51,14 +76,14 @@ footer{
 	height: 5vw;
     width: 100%;
     margin: 0px auto;
-    background:  rgb(36, 41, 46);
+    background:  #2f363d;
 }
 
 #menu {
     /*font-size: 1vw;*/
     height: 80px;
     z-index: 1001;
-    background:  rgb(29, 33, 37);
+    background:  #1d2125;
 }
 
 #menu div{
@@ -84,7 +109,7 @@ footer{
 	margin: 0;
 }
 
-ul { 
+ul {
 	text-align:  center;
 	list-style: none;
 	margin: 0;
@@ -109,11 +134,12 @@ ul {
 	text-decoration: none;
 }
 
-#lower-menu>li {
+#lower-menu > li {
+	color: black;
     line-height: 40px;
 	/*padding: 0.2em 1%;*/
 	/*width: 100%;*/
-	float: left;;
+	float: left;
 	display: inline-block;
 	/*height: 100%;*/
 	width: 25%;
@@ -130,22 +156,21 @@ ul {
 
 #lower-menu li:hover{
 	height: 100%;
-    background: black;
+    background: #24292e;
 }
 
 
 
 
 
-
 #lower-menu ul{
-	background: white;
+	background: #1d2125;
 	/*list-style:none;*/
-	position:absolute;
+	position: absolute;
 	z-index: 1001;
 	left:-9999px; 
 	opacity:0; 
-	-webkit-transition:0.25s linear opacity; 
+	-webkit-transition:0.25s linear opacity;
 }
 #lower-menu ul li{
 	display: block;
@@ -155,14 +180,15 @@ ul {
 	/*background:url(dot.gif);width: 100px;*/
 }
 #lower-menu ul a{
+	width: inherit;
 	white-space:nowrap;  
 	display:block;
 }
-#lower-menu>li:hover ul{ 
+
+#lower-menu>li:hover ul{
 	/*left:100px;  Приносим его обратно на экран, когда нужно */
-	width: inherit;
-	/*top:inherit;*/
 	left: inherit;
+	/*top:inherit;*/
 	opacity:1; 
 	width: inherit; 
 
