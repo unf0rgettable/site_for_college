@@ -13,7 +13,6 @@ body{
 	width: 100%;
 	margin: 0 ; 
 	padding: 0; 
-	height: 10000px;
 	color: white;
 	background:  #24292e;
 }
@@ -27,6 +26,7 @@ header{
 }
 
 content{
+	min-height: 1000px;
 	display: block;
 	background:  #2f363d;
 	margin-left: auto;
@@ -45,6 +45,7 @@ content{
 	display: inline-block;
 }
 .element{
+	text-align: center;
 	height: 50px;
 	padding: 0px;
 	margin: 0px auto;
@@ -152,9 +153,9 @@ ul {
 	/*display: inline-block;*/
 }
 
-#lower-menu a {}  /*если убрать пропадает ховер*/
 
 #lower-menu li:hover{
+	width: 245px;
 	height: 100%;
     background: #24292e;
 }
@@ -195,7 +196,9 @@ ul {
 }
 
 
-
+.fixing-content{
+	margin-top: 80px;
+}
 
 .fix-header{
 	margin-top: -40px; 
